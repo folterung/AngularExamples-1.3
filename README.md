@@ -7,7 +7,7 @@
 
 ####More to come
 
-I will be added more and more examples, below are just a few that are coming up:
+I will be adding more and more examples, below are just a few that are coming up:
 
 - [x] Data Binding
 - [x] NgRepeat
