@@ -1,5 +1,4 @@
 ##Project samples for AngularJS beginners
----
 
 ####Currently included examples:
 
