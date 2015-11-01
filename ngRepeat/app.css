@@ -57,7 +57,7 @@ body.active {
 }
 
 .remove-person-button {
-    border: 2px solid #D32F2F;
+    border: 2px solid #B71C1C;
     background-color: #EF5350;
 }
 
@@ -74,7 +74,7 @@ body.active {
 }
 
 .remove-person-button:hover {
-    background-color: #F44336;
+    background-color: #D32F2F;
 }
 
 .person-container {

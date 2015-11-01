@@ -113,7 +113,7 @@
         }
 
         function add100People() {
-            _safelyAddLargeAmountsOfPeople(200);
+            _safelyAddLargeAmountsOfPeople(100);
         }
 
         /*
