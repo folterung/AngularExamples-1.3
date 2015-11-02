@@ -76,8 +76,8 @@
             Initialization functions should be defined after the variables are initialized so that a developer can
             see the model of the view without any confusion
          */
-        _slickReveal();
         _populateNameData(5);
+        _slickReveal();
 
         /*
             Don't use inline functions when possible has it can have a negative impact on future maintainability
