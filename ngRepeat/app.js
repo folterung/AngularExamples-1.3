@@ -76,8 +76,8 @@
             Initialization functions should be defined after the variables are initialized so that a developer can
             see the model of the view without any confusion
          */
-        _populateNameData(5);
         _slickReveal();
+        _populateNameData(5);
 
         /*
             Don't use inline functions when possible has it can have a negative impact on future maintainability
@@ -120,7 +120,6 @@
             Any functions that are not exposed to the view should be prepended with an '_' to make them easy to
             identify.
          */
-
         function _isEmpty(str) {
             return str.length === 0;
         }
