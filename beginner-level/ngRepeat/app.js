@@ -125,14 +125,9 @@
         }
 
         function _slickReveal() {
-            var revealClass = 'active';
             $timeout(function() {
-                angular.element(document.body).addClass(revealClass);
-            }, 100);
-
-            $timeout(function() {
-                angular.element(document.querySelector('header')).addClass(revealClass);
-            }, 350);
+                angular.element(document.body).addClass('active');
+            }, 0);
         }
 
         function _populateNameData(numberOfPeopleToAdd) {

@@ -29,11 +29,7 @@
         function _slickReveal() {
             $timeout(function() {
                 angular.element(document.body).addClass('active');
-            }, 50);
-
-            $timeout(function() {
-                angular.element(document.querySelector('header')).addClass('active');
-            }, 300);
+            }, 0);
         }
 
         function _isEmpty(str) {
