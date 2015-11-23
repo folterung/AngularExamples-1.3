@@ -1,0 +1,114 @@
+body {
+    font-size: 16px;
+}
+
+input, textarea, keygen, select, button {
+    font-size: 16px;
+}
+
+.required-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.required-wrapper input {
+    margin-top: 20px;
+}
+
+.required-label {
+    position: absolute;
+    font-size: 0.8em;
+    top: 3px;
+    left: 29px;
+    height: 15px;
+    overflow: hidden;
+}
+
+.required-label {
+    color: red;
+}
+
+.required-label.ng-hide-add, .required-label.ng-hide-remove {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.required-label.ng-hide{
+    opacity: 0.25;
+    height: 0;
+
+    -webkit-transform: translate3d(0, 10px, 0);
+    -moz-transform: translate3d(0, 10px, 0);
+    -ms-transform: translate3d(0, 10px, 0);
+    -o-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+}
+
+.shift-x {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    top: 7px;
+}
+
+.shift-x .shift-x-line {
+    height: 20px;
+    width: 2px;
+    background-color: red;
+    border-radius: 4px;
+    position: absolute;
+    top: 2px;
+    left: 10px;
+
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.shift-x .shift-x-line:last-child {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.shift-x.active .shift-x-line {
+    height: 5px;
+    border-radius: 0;
+    top: 11px;
+    left: 6px;
+    background-color: green;
+
+    -webkit-transform: rotate(-225deg);
+    -moz-transform: rotate(-225deg);
+    -ms-transform: rotate(-225deg);
+    -o-transform: rotate(-225deg);
+    transform: rotate(-225deg);
+}
+
+.shift-x.active .shift-x-line:last-child {
+    height: 13px;
+    top: 5px;
+    left: 12px;
+
+    -webkit-transform: rotate(225deg);
+    -moz-transform: rotate(225deg);
+    -ms-transform: rotate(225deg);
+    -o-transform: rotate(225deg);
+    transform: rotate(225deg);
+}

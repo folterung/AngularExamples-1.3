@@ -1,0 +1,9 @@
+<div class="required-wrapper">
+    <span class="required-label" ng-show="shouldShowRequired();" ng-bind="requiredMessage"></span>
+    <div class="shift-x" ng-class="{'active': !shouldShowRequired()}">
+        <div class="shift-x-line"></div>
+        <div class="shift-x-line"></div>
+    </div>
+    <!--<span class="required-label-success" ng-hide="shouldShowRequired();">Good &#x2713;</span>-->
+    <input placeholder="{{::placeholder}}" id="{{::passedId}}" type="text" ng-model="dataModel"/>
+</div>
