@@ -1,6 +1,6 @@
 [![Stories in Ready](https://badge.waffle.io/folterung/AngularExamples-1.3.png?label=ready&title=Ready)](http://waffle.io/folterung/AngularExamples-1.3)
 
-[![Stories in Progress](https://badge.waffle.io/folterung/AngularExamples-1.3.png?label="in progress"&title="In Progress")](http://waffle.io/folterung/AngularExamples-1.3)
+[![Stories in Progress](https://badge.waffle.io/folterung/AngularExamples-1.3.png?label=in progress&title=In Progress)](http://waffle.io/folterung/AngularExamples-1.3)
 
 ##Project samples for AngularJS beginners
 
